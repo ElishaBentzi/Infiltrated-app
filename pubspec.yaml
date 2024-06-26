@@ -1,0 +1,28 @@
+name: infiltratedtest
+description: The infiltrated companion Flutter app.
+version: 1.2.1+2
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_staggered_grid_view: ^0.7.0
+  audioplayers: ^6.0.0
+  countdown_flutter_ns: ^0.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audios/English/
+    - assets/audios/Spanish/
+    - assets/audios/French/
